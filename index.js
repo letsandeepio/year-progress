@@ -18,9 +18,8 @@ module.exports = () => {
   const cliProgress = require('cli-progress');
   const _colors = require('colors');
 
-  console.log(new Date().getFullYear());
+  console.log('\n' + new Date().getFullYear() + '\n');
 
-  // create new progress bar
   const b1 = new cliProgress.SingleBar({
     format: `${_colors.cyan('{bar}')}| {percentage}% || {value}/{total} Days`,
     barCompleteChar: '\u2588',
@@ -28,13 +27,17 @@ module.exports = () => {
     hideCursor: true
   });
 
-  // initialize the bar - defining payload token "speed" with the default value "N/A"
   b1.start(365, 0, {
     speed: 'N/A'
   });
 
   b1.update(new Date().getDOY());
 
-  // stop the bar
   b1.stop();
+
+  if (process.argv.slice(2)[0] === 'about') {
+    console.log(
+      '\nA simple command-line app for displaying current year progress (inspired by Google Engineer @filiphracek). See https://twitter.com/year_progress \n\nDeveloped by Sandeep Chopra (https://github.com/letsandeepio/)\n\nMIT License 2020'
+    );
+  }
 };

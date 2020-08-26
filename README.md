@@ -21,7 +21,7 @@ For times when you are offline and unable to access [@year-progress](https://twi
 year-progress
 ```
 
-![screenshot]()
+![screenshot](https://raw.githubusercontent.com/letsandeepio/year-progress/master/documentation/screeenshot.png)
 
 ## Contribution
 
@@ -30,6 +30,6 @@ Please feel free to clone & open the PR for review.
 ## Author
 
 **year-progress** © [Sandeep](https://github.com/letsandeepio), Released under the [MIT](./LICENSE) License.<br>
-Authored and maintained by Sandeep and Contributos ([list](https://github.com/letsandeepio/year-progress/contributors)).
+Authored and maintained by Sandeep and Contributors ([list](https://github.com/letsandeepio/year-progress/contributors)).
 
 > GitHub [@letsandeepio](https://github.com/letsandeepio) · Twitter [@letsandeepio](https://twitter.com/letsandeepio)

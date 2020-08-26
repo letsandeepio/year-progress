@@ -10,7 +10,7 @@ A simple commandline app for displaying current year progress - inspired by Goog
 ## Install
 
 ```bash
-npm i @letsandeepio/year-progress
+npm install -g @letsandeepio/year-progress
 ```
 
 ## Usage

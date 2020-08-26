@@ -1,7 +1,21 @@
 {
-  "name": "year-progress",
+  "name": "@letsandeepio/year-progress",
   "version": "1.0.0",
   "description": "a simple command line utility to find out the how far the year has progressed",
+  "homepage": "https://github.com/letsandeepio/year-progress",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/letsandeepio/year-progress.git"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "keywords": [
+    "year",
+    "fun",
+    "2020"
+  ],
+  "preferGlobal": true,
   "main": "index.js",
   "bin": {
     "year-progress": "bin/year-progress"
@@ -14,5 +28,9 @@
   "dependencies": {
     "cli-progress": "^3.8.2",
     "colors": "^1.4.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/letsandeepio/year-progress/issues"
+  },
+  "devDependencies": {}
 }

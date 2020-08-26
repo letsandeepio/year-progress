@@ -5,7 +5,7 @@
 
 ## Description
 
-A simple commandline app for displaying current year progress (inspired by Google Engineer [@filiphracek](https://twitter.com/filiphracek)
+A simple commandline app for displaying current year progress - inspired by Google Engineer [@filiphracek](https://twitter.com/filiphracek)
 
 ## Install
 

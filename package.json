@@ -1,6 +1,6 @@
 {
   "name": "@letsandeepio/year-progress",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a simple command line utility to find out the how far the year has progressed",
   "homepage": "https://github.com/letsandeepio/year-progress",
   "repository": {
